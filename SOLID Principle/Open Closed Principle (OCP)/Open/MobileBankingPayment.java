@@ -1,12 +1,11 @@
 package Open;
 
 public class MobileBankingPayment implements PaymentService {
-    public int id;
-    public int amountt;
+    int amountt;
 
-    public void payment(int id, int amount) {
-        this.id = id;
+    public void payment(int amount) {
         amountt = amount;
+        System.out.println(amount + " taka paid by mobile bank");
     }
 
 }
