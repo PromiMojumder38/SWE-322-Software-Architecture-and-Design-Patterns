@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Interface Segregation Principle (ISP)",
-        "Single Responsibility Principle (SRP)"
+        "Single Responsibility Principle (SRP)",
+        "Open Closed Principle (OCP)"
     ]
 }

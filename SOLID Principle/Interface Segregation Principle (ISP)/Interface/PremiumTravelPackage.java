@@ -1,9 +1,11 @@
-package Open;
+package Interface;
 
-public class PremiumTravelPackage implements TravelPackage {
-    double premiumCost;
+public class PremiumTravelPackage implements TravelPackage, SwimmingPoolService {
+    public void mealService() {
 
-    public double calculateTotalCost() {
-        return premiumCost;
+    }
+
+    public void swimmingPool() {
+
     }
 }

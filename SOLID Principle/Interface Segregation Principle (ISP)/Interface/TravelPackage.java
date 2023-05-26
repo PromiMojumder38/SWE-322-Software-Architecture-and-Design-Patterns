@@ -1,5 +1,5 @@
-package Open;
+package Interface;
 
 public interface TravelPackage {
-    double calculateTotalCost();
+    void mealService();
 }

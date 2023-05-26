@@ -1,10 +1,8 @@
 package Interface;
 
 public class BasicTravelPackage implements TravelPackage {
-    double basicCost;
+    public void mealService() {
 
-    public double calculateTotalCost() {
-        return basicCost;
     }
 
 }
